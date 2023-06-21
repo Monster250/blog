@@ -384,7 +384,11 @@ header.shadow {
         margin-left: 0px;
     }
 }
-
+@media(max-width:480px){
+    .filter-item {
+        text-align: center !important;
+    }
+}
 @media (max-width:380px) {
     .post-filter {
         text-align: center;
