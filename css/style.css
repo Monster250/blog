@@ -394,3 +394,9 @@ header.shadow {
         font-size: 1.28rem;
     }
 }
+@media (max-width:950px) {
+    header a img {
+        width: 129px;
+        margin-left: -12px;
+    }
+}
