@@ -375,10 +375,10 @@ header.shadow {
         line-height: 1.2rem;
     }
 }
+
 @media (max-width:800px) {
     .filter-item {
         font-size: 13px;
-        text-align: center !important;
     }
     header a img {
         width: 116px;
@@ -394,15 +394,17 @@ header.shadow {
         font-size: 1.28rem;
     }
 }
+
 @media (max-width:950px) {
     header a img {
-        width: 129px;
-        margin-left: -12px;
+        width: 129px !important;
+        margin-left: -12px !important;
     }
 }
+
 @media (max-width:1290px) {
     header a img {
         width: 150px;
-        margin-left: -103px;
+        margin-left: -31px;
     }
 }
