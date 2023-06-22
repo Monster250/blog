@@ -394,3 +394,16 @@ header.shadow {
         font-size: 1.28rem;
     }
 }
+@media (max-width:950px) {
+    header a img {
+        width: 129px;
+        margin-left: -12px;
+    }
+}
+
+@media (max-width:1290px) {
+    header a img {
+        width: 150px;
+        margin-left: -103px;
+    }
+}
